@@ -16,4 +16,4 @@ name = "pulsectl"
 path = "src/lib.rs"
 
 [dependencies]
-libpulse-binding = "2.28"
+libpulse-binding = { git = "https://github.com/21pages/pulse-binding-rust", package = "libpulse-binding", branch = "dynamic_load" }
